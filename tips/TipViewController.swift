@@ -30,6 +30,7 @@ class TipViewController: UIViewController {
         super.viewWillAppear(animated)
         if defaultSet() {
             tipControl.selectedSegmentIndex = NSUserDefaults.standardUserDefaults().integerForKey("defaultTipIndex")
+            onEditingChanged(self)
         }
     }
     

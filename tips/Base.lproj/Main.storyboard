@@ -5,16 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--Tip Calculator-->
+        <!--Tips Calculator-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="HIR-Dx-VCe">
-                    <connections>
-                        <action selector="onTap:" destination="BYZ-38-t0r" id="3vW-6C-6eK"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <viewController id="BYZ-38-t0r" customClass="TipViewController" customModule="tips" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TipViewController" customModule="Tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,8 +21,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4a9-85-v87">
-                                <rect key="frame" x="20" y="210" width="25" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4a9-85-v87">
+                                <rect key="frame" x="20" y="210" width="51" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -92,7 +86,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Tip Calculator" id="wp4-a6-bRp">
+                                    <navigationItem title="Tips Calculator" id="wp4-a6-bRp">
                                         <barButtonItem key="rightBarButtonItem" title="Settings" id="hGv-TP-WYc"/>
                                     </navigationItem>
                                 </items>
@@ -105,7 +99,7 @@
                             <outletCollection property="gestureRecognizers" destination="HIR-Dx-VCe" appends="YES" id="GKY-At-hSv"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="F42-tC-mwF">
+                    <navigationItem key="navigationItem" title="Tips Calculator" id="F42-tC-mwF">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="8Ll-yi-7nI">
                             <connections>
                                 <segue destination="nLj-25-0nW" kind="push" id="biJ-Sk-wwG"/>
@@ -119,18 +113,24 @@
                         <outlet property="totalLabel" destination="JoV-3R-Bkf" id="lkV-Sr-umL"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HIR-Dx-VCe">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="3vW-6C-6eK"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="485" y="238"/>
         </scene>
         <!--Settings-->
         <scene sceneID="oOE-zg-ypk">
             <objects>
-                <viewController id="nLj-25-0nW" customClass="SettingsViewController" customModule="tips" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nLj-25-0nW" customClass="SettingsViewController" customModule="Tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GnQ-s2-FV6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Default Tip Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7pl-8o-yF1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Default Tips Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7pl-8o-yF1">
                                 <rect key="frame" x="20" y="81" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -153,6 +153,14 @@
                                     <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="gRh-n1-SPy"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mountain Image Designed by Freepik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rNP-uu-Fsg">
+                                <rect key="frame" x="18" y="527" width="284" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -166,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="899" y="238"/>
         </scene>
-        <!--Tip Calculator-->
+        <!--Tips Calculator-->
         <scene sceneID="9lu-Fh-Jck">
             <objects>
-                <navigationController title="Tip Calculator" automaticallyAdjustsScrollViewInsets="NO" id="VNO-Kh-TOF" sceneMemberID="viewController">
+                <navigationController title="Tips Calculator" automaticallyAdjustsScrollViewInsets="NO" id="VNO-Kh-TOF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="igU-6u-uhg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

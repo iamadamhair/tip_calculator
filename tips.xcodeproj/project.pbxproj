@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0A7ECB1C0EA246008652A2 /* 09-150ppp full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C0A7ECA1C0EA246008652A2 /* 09-150ppp full.jpg */; };
 		9CE252741C0CE6EF003D2644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE252731C0CE6EF003D2644 /* AppDelegate.swift */; };
 		9CE252761C0CE6EF003D2644 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE252751C0CE6EF003D2644 /* TipViewController.swift */; };
 		9CE252791C0CE6EF003D2644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE252771C0CE6EF003D2644 /* Main.storyboard */; };
@@ -35,17 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9CE252701C0CE6EF003D2644 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0A7ECA1C0EA246008652A2 /* 09-150ppp full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "09-150ppp full.jpg"; path = "../../../Downloads/Snowy-mountains-illustration/09-150ppp full.jpg"; sourceTree = "<group>"; };
+		9CE252701C0CE6EF003D2644 /* Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE252731C0CE6EF003D2644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE252751C0CE6EF003D2644 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		9CE252781C0CE6EF003D2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE2527A1C0CE6EF003D2644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE2527D1C0CE6EF003D2644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE2527F1C0CE6EF003D2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CE252841C0CE6EF003D2644 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE252841C0CE6EF003D2644 /* Tips.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tips.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE252881C0CE6EF003D2644 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 		9CE2528A1C0CE6EF003D2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CE2528F1C0CE6EF003D2644 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE2528F1C0CE6EF003D2644 /* Tips.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tips.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE252931C0CE6EF003D2644 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		9CE252951C0CE6EF003D2644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CE252A31C0CFD2C003D2644 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -83,15 +85,16 @@
 				9CE252871C0CE6EF003D2644 /* tipsTests */,
 				9CE252921C0CE6EF003D2644 /* tipsUITests */,
 				9CE252711C0CE6EF003D2644 /* Products */,
+				9C0A7ECA1C0EA246008652A2 /* 09-150ppp full.jpg */,
 			);
 			sourceTree = "<group>";
 		};
 		9CE252711C0CE6EF003D2644 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CE252701C0CE6EF003D2644 /* tips.app */,
-				9CE252841C0CE6EF003D2644 /* tipsTests.xctest */,
-				9CE2528F1C0CE6EF003D2644 /* tipsUITests.xctest */,
+				9CE252701C0CE6EF003D2644 /* Tips.app */,
+				9CE252841C0CE6EF003D2644 /* Tips.xctest */,
+				9CE2528F1C0CE6EF003D2644 /* Tips.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CE2526F1C0CE6EF003D2644 /* tips */ = {
+		9CE2526F1C0CE6EF003D2644 /* Tips */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CE252981C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = 9CE252981C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "Tips" */;
 			buildPhases = (
 				9CE2526C1C0CE6EF003D2644 /* Sources */,
 				9CE2526D1C0CE6EF003D2644 /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = Tips;
 			productName = tips;
-			productReference = 9CE252701C0CE6EF003D2644 /* tips.app */;
+			productReference = 9CE252701C0CE6EF003D2644 /* Tips.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9CE252831C0CE6EF003D2644 /* tipsTests */ = {
+		9CE252831C0CE6EF003D2644 /* TipsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CE2529B1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "tipsTests" */;
+			buildConfigurationList = 9CE2529B1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "TipsTests" */;
 			buildPhases = (
 				9CE252801C0CE6EF003D2644 /* Sources */,
 				9CE252811C0CE6EF003D2644 /* Frameworks */,
@@ -161,14 +164,14 @@
 			dependencies = (
 				9CE252861C0CE6EF003D2644 /* PBXTargetDependency */,
 			);
-			name = tipsTests;
+			name = TipsTests;
 			productName = tipsTests;
-			productReference = 9CE252841C0CE6EF003D2644 /* tipsTests.xctest */;
+			productReference = 9CE252841C0CE6EF003D2644 /* Tips.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CE2528E1C0CE6EF003D2644 /* tipsUITests */ = {
+		9CE2528E1C0CE6EF003D2644 /* TipsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CE2529E1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "tipsUITests" */;
+			buildConfigurationList = 9CE2529E1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "TipsUITests" */;
 			buildPhases = (
 				9CE2528B1C0CE6EF003D2644 /* Sources */,
 				9CE2528C1C0CE6EF003D2644 /* Frameworks */,
@@ -179,9 +182,9 @@
 			dependencies = (
 				9CE252911C0CE6EF003D2644 /* PBXTargetDependency */,
 			);
-			name = tipsUITests;
+			name = TipsUITests;
 			productName = tipsUITests;
-			productReference = 9CE2528F1C0CE6EF003D2644 /* tipsUITests.xctest */;
+			productReference = 9CE2528F1C0CE6EF003D2644 /* Tips.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9CE2526B1C0CE6EF003D2644 /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 9CE2526B1C0CE6EF003D2644 /* Build configuration list for PBXProject "Tips" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CE2526F1C0CE6EF003D2644 /* tips */,
-				9CE252831C0CE6EF003D2644 /* tipsTests */,
-				9CE2528E1C0CE6EF003D2644 /* tipsUITests */,
+				9CE2526F1C0CE6EF003D2644 /* Tips */,
+				9CE252831C0CE6EF003D2644 /* TipsTests */,
+				9CE2528E1C0CE6EF003D2644 /* TipsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0A7ECB1C0EA246008652A2 /* 09-150ppp full.jpg in Resources */,
 				9CE2527E1C0CE6EF003D2644 /* LaunchScreen.storyboard in Resources */,
 				9CE2527B1C0CE6EF003D2644 /* Assets.xcassets in Resources */,
 				9CE252791C0CE6EF003D2644 /* Main.storyboard in Resources */,
@@ -287,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		9CE252861C0CE6EF003D2644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CE2526F1C0CE6EF003D2644 /* tips */;
+			target = 9CE2526F1C0CE6EF003D2644 /* Tips */;
 			targetProxy = 9CE252851C0CE6EF003D2644 /* PBXContainerItemProxy */;
 		};
 		9CE252911C0CE6EF003D2644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CE2526F1C0CE6EF003D2644 /* tips */;
+			target = 9CE2526F1C0CE6EF003D2644 /* Tips */;
 			targetProxy = 9CE252901C0CE6EF003D2644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,7 +411,7 @@
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamhair.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tips;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -421,7 +425,7 @@
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamhair.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tips;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -433,8 +437,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamhair.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = Tips;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
 			};
 			name = Debug;
 		};
@@ -445,8 +449,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamhair.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = Tips;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tips.app/Tips";
 			};
 			name = Release;
 		};
@@ -456,7 +460,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamhair.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tips;
 				TEST_TARGET_NAME = tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -468,7 +472,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamhair.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tips;
 				TEST_TARGET_NAME = tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -477,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CE2526B1C0CE6EF003D2644 /* Build configuration list for PBXProject "tips" */ = {
+		9CE2526B1C0CE6EF003D2644 /* Build configuration list for PBXProject "Tips" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE252961C0CE6EF003D2644 /* Debug */,
@@ -486,29 +490,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CE252981C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "tips" */ = {
+		9CE252981C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "Tips" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE252991C0CE6EF003D2644 /* Debug */,
 				9CE2529A1C0CE6EF003D2644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9CE2529B1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
+		9CE2529B1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE2529C1C0CE6EF003D2644 /* Debug */,
 				9CE2529D1C0CE6EF003D2644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9CE2529E1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
+		9CE2529E1C0CE6EF003D2644 /* Build configuration list for PBXNativeTarget "TipsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE2529F1C0CE6EF003D2644 /* Debug */,
 				9CE252A01C0CE6EF003D2644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

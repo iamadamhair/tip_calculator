@@ -13,6 +13,7 @@ class SettingsViewController: UIViewController {
     let defaults = NSUserDefaults.standardUserDefaults()
     
     @IBOutlet weak var defaultTipControl: UISegmentedControl!
+    @IBOutlet weak var defaultColorControl: UISegmentedControl!
     
     @IBAction func defaultTipControl(sender: AnyObject) {
     }
@@ -20,9 +21,11 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         if !defaultSet() {
             defaults.setInteger(defaultTipControl.selectedSegmentIndex, forKey: "defaultTipIndex")
+            defaults.setInteger(defaultColorControl.selectedSegmentIndex, forKey: "defaultColorIndex")
             defaults.synchronize()
         } else {
             defaultTipControl.selectedSegmentIndex = defaults.integerForKey("defaultTipIndex")
+            defaultColorControl.selectedSegmentIndex = defaults.integerForKey("defaultColorIndex")
         }
         // Do any additional setup after loading the view.
     }
@@ -38,6 +41,11 @@ class SettingsViewController: UIViewController {
         } else {
             return false
         }
+    }
+    
+    @IBAction func defaultColorUpdate(sender: AnyObject) {
+        defaults.setInteger(defaultColorControl.selectedSegmentIndex, forKey: "defaultColorIndex")
+        defaults.synchronize()
     }
     
     @IBAction func defaultTipUpdate(sender: AnyObject) {

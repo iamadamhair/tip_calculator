@@ -110,7 +110,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Ways" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fWM-SV-AUn">
-                                <rect key="frame" x="20" y="393" width="104" height="36"/>
+                                <rect key="frame" x="20" y="390" width="104" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -138,7 +138,7 @@
                                 <color key="highlightedColor" red="0.97810496790000001" green="0.053224401519999999" blue="0.055656752099999998" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kt7-4E-1Rz">
-                                <rect key="frame" x="98" y="393" width="202" height="36"/>
+                                <rect key="frame" x="98" y="390" width="202" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -160,7 +160,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tips Calculator" id="F42-tC-mwF">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="8Ll-yi-7nI">
-                            <color key="tintColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="nLj-25-0nW" kind="push" id="biJ-Sk-wwG"/>
                             </connections>
@@ -169,16 +169,22 @@
                     <connections>
                         <outlet property="backgroundView" destination="8bC-Xf-vdC" id="viS-Jh-ZZI"/>
                         <outlet property="billField" destination="Ay1-H6-c5P" id="G03-Xw-pTF"/>
+                        <outlet property="billLabel" destination="coD-ts-hmb" id="8tk-C8-EuE"/>
                         <outlet property="blackBarView" destination="pev-Hq-qqd" id="daa-3w-y9b"/>
+                        <outlet property="dollarLabel" destination="t6c-YA-Pzh" id="iaq-on-IEr"/>
                         <outlet property="fiveWayField" destination="Kt7-4E-1Rz" id="zW1-Zm-9Em"/>
+                        <outlet property="fiveWaysLabel" destination="fWM-SV-AUn" id="j0a-mD-uri"/>
                         <outlet property="fourWayField" destination="Ngh-cf-9bS" id="UvA-ca-SlY"/>
+                        <outlet property="fourWaysLabel" destination="GAx-Qh-buF" id="W7j-Fj-aHm"/>
                         <outlet property="grandTotalLabel" destination="fGK-lq-Bdu" id="gBB-fC-Jqv"/>
                         <outlet property="plusTipLabel" destination="4a9-85-v87" id="Sxx-Yi-gfc"/>
                         <outlet property="threeWayField" destination="Rxw-0o-Kcz" id="HX6-z6-kkV"/>
+                        <outlet property="threeWaysLabel" destination="Lp8-wo-CMC" id="FhF-Gz-n0Z"/>
                         <outlet property="tipControl" destination="wHC-sz-W0B" id="F1U-Bj-9NN"/>
                         <outlet property="tipLabel" destination="3Ll-av-3XW" id="Sly-dj-6wZ"/>
                         <outlet property="totalLabel" destination="JoV-3R-Bkf" id="lkV-Sr-umL"/>
                         <outlet property="twoWayField" destination="AOs-Eg-H9K" id="oql-tI-dl5"/>
+                        <outlet property="twoWaysLabel" destination="bWa-31-tXJ" id="8A5-aP-EmY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -203,7 +209,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.97810496790000001" green="0.053224401519999999" blue="0.055656752099999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="n3f-fc-Ual">
@@ -214,7 +219,7 @@
                                     <segment title="20%"/>
                                     <segment title="22%"/>
                                 </segments>
-                                <color key="tintColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="defaultTipControl:" destination="nLj-25-0nW" eventType="valueChanged" id="6Rs-yO-mgo"/>
                                     <action selector="defaultTipUpdate:" destination="nLj-25-0nW" eventType="valueChanged" id="DqO-FA-Z6f"/>
@@ -229,7 +234,7 @@
                                     <segment title="Green"/>
                                     <segment title="Blue"/>
                                 </segments>
-                                <color key="tintColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.068696825919999996" green="0.068696825919999996" blue="0.068696825919999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="defaultColorUpdate:" destination="nLj-25-0nW" eventType="valueChanged" id="DI9-Vj-oG3"/>
                                     <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="6cu-jP-1PZ"/>
@@ -240,18 +245,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.97810496790000001" green="0.17219317379999999" blue="0.16496756670000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.97810496790000001" green="0.053224401519999999" blue="0.055656752099999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mountain Image Designed by Freepik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rNP-uu-Fsg">
                                 <rect key="frame" x="20" y="456" width="284" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.97810496790000001" green="0.053224401519999999" blue="0.055656752099999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.51751649990000004" blue="0.47460353519999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.97810496790000001" green="0.053224401519999999" blue="0.055656752099999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="6Oa-Yz-9yC">
@@ -285,5 +288,5 @@
             <point key="canvasLocation" x="-47" y="238"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.97810496790000001" green="0.053224401519999999" blue="0.055656752099999998" alpha="1" colorSpace="calibratedRGB"/>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
